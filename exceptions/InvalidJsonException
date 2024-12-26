@@ -1,0 +1,7 @@
+package api.exceptions;
+
+public class InvalidJsonException extends ApiProcessingException {
+    public InvalidJsonException(String message) {
+        super("Invalid JSON Structure: " + message);
+    }
+}
